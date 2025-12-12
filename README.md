@@ -1,84 +1,180 @@
-# E-Commerce Store Analysis
+# 🛒 E-Commerce Sales Dashboard – Power BI | Power Query | Excel
 
-## Description
+*A Complete Data Analytics Project with Filters, Drilldowns & Geo Insights*
 
-This repository contains a Power Bi dashboard of an E-commerce store to answer questions about the data. The insights of the dashboard can be found in the results.txt file.  This repository can be used as a starting point for anyone who wants to learn how to use Power Bi to analyze data.
-<!--Analyzed E-commerce store data. Created an interactive dashboard using Power BI.-->
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Tool](https://img.shields.io/badge/PowerBI-Used-yellow)
+![Tool](https://img.shields.io/badge/PowerQuery-ETL-blue)
+![Excel](https://img.shields.io/badge/Excel-Preprocessing-green)
+![License](https://img.shields.io/badge/Project-Type-Portfolio-blueviolet)
 
-## Screenshot
+---
 
-![dashboard preview](https://github.com/avishek09/E-Commerce-Store-Analysis-/assets/75924699/5151c585-882b-4db4-b324-a8cc63256fb4)
+## 📌 **Table of Contents**
 
-## Installation
+* [Project Overview](#project-overview)  
+* [Tech Stack](#tech-stack)  
+* [Dashboard Panels](#dashboard-panels)  
+* [Key Insights](#key-insights)  
+* [Features Implemented](#features-implemented)  
+* [Screenshots](#screenshots)  
+* [How to Use](#how-to-use)  
+* [Project Files](#project-files)  
+* [Contact](#contact)
 
-To run this project on your machine you need to install <a href="https://powerbi.microsoft.com/en-us/downloads/">Microsoft Power Bi</a>.
+---
 
-<!-- ## Usage
+## 🚀 **Project Overview**
 
-Provide instructions and examples for use. Include screenshots as needed.
+This project is an **end-to-end E-Commerce Sales Dashboard** built using **Power BI**, **Power Query**, and **Excel**.  
+It provides actionable insights into:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+- Sales performance  
+- Profit trends  
+- Customer behavior  
+- Category and sub-category analysis  
+- Payment mode preferences  
+- Geo-distribution of orders  
 
-    ```md
-    ![schema](MusicDatabaseSchema.png)
-    ``` -->
+The dashboard is designed with **interactive filters**, **state-wise drilldowns**, and **map-based visuals** to help stakeholders make data-driven decisions.
 
-## Tools
+---
 
-* Microsoft Power BI
+## 🧰 **Tech Stack**
 
-## Credits
+| Component      | Technology                      |
+| -------------- | ------------------------------- |
+| Data Cleaning  | **Power Query**                 |
+| Data Modelling | **Power BI Desktop**            |
+| Visualization  | **Power BI Reports**            |
+| Pre-processing | **Excel**                       |
+| Geo Mapping    | **Map Visuals + State Filters** |
+| Measures       | **DAX**                         |
 
-Throughout the development of this project, I have sought inspiration from a pivotal video source: https://youtu.be/6cV3OwFrOkk
+---
 
-## Badges
+## 📄 **Dashboard Panels**
 
-![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
+### 1️⃣ **Top Metrics Panel**
 
-## Project Learnings
+- 💰 Amount: **₹438K**  
+- 📈 Profit: **₹37K**  
+- 📦 Quantity Sold: **5615**  
+- 🧮 Average Order Value (AOV): **₹121.01K**
 
-* Created an interactive dashboard to track and analyze online sales data.
-* Used complex parameters to drill down in worksheet and customization using filters and slicers.
-* Created connections, joined new tables, did calculations to manipulate data, and enabled user-driven parameters for visualization.
-* Used different types of customized visualization (bar chart, pie chart, donut chart, clustered bar chart, scatter chart, line chart, area chart, map, slicers, etc)
+### 2️⃣ **State-Wise Analysis**
 
-## Conclusion
+- Maharashtra: ₹102K  
+- Madhya Pradesh: ₹87K  
+- Uttar Pradesh: ₹38K  
+- Delhi: ₹23K  
 
-The project was successful in answering the set of questions about an E-commerce Store's performance. The results of the project can be found in result.txt file.
+### 3️⃣ **Payment Mode Breakdown**
 
+- COD: 44%  
+- UPI: 21%  
+- Debit Card: 13%  
+- Credit Card: 12%  
+- EMI: 10%
 
-<!--## How to Contribute
+### 4️⃣ **Profit by Sub-Category**
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.-->
+- Printers: ₹8.6K  
+- Bookcases: ₹6.5K  
+- Series: ₹4.1K  
+- Accessories: ₹3.4K  
+- Tables: ₹3.1K  
 
-<!-- ## Questions Answered
+### 5️⃣ **Orders by City (Map)**
 
-The following questions are answered by the project:
+- Geo-distribution of orders across India  
+- Visualized using dynamic map circles  
 
-* What are the most popular genres of music?
-* What are the most popular artists?
-* What are the most popular songs?
-* What are the average prices of different types of music?
-* What are the most popular countries for music purchases?
+### 6️⃣ **Customer-Level Sales**
 
-## Data Set
+- Harivansh: ₹9.9K  
+- Madhav: ₹9.4K  
+- Madan Mohan: ₹7.8K  
+- Shiva: ₹6.3K  
 
-The data set used for this project is available on GitHub. The data set contains information about the store's customers, music, and sales.
+### 7️⃣ **Category-Wise Quantity**
 
-## Results
+- Clothing: 63%  
+- Electronics: 21%  
+- Furniture: 17%
 
-The results of the project are as follows:
+### 8️⃣ **Monthly Profit Trends**
 
-* The most popular genre of music is pop.
-* The most popular artist is Taylor Swift.
-* The most popular song is "Despacito" by Luis Fonsi and Daddy Yankee.
-* The average price of an album is $10.
-* The most popular country for music purchases is the United States.
+- Highest: October (₹6.5K)  
+- Lowest: September (₹-1.9K)  
+- Negative months: May, June, September, December
 
-## Conclusion
+---
 
-The project was successful in answering the set of questions about the store's business performance. The results of the project can be used by the store to make decisions about its marketing and product offerings.
+## 📈 **Key Insights**
 
+### 🔹 **Sales Performance**
 
-I hope this is helpful! -->
+- ₹438K total revenue  
+- ₹37K profit  
+- Clothing dominates quantity sold  
+- COD is the most preferred payment method
+
+### 🔹 **Customer Behavior**
+
+- Top customers contribute significantly to revenue  
+- Geo spread shows strong presence in Maharashtra & MP
+
+### 🔹 **Time-Based Trends**
+
+- Profit dips in mid-year months  
+- October and January show peak profitability
+
+---
+
+## 🛠 **Features Implemented**
+
+✔ Data Cleaning with Power Query  
+✔ DAX Measures for KPIs  
+✔ Interactive Filters (Quarter, State)  
+✔ Geo Mapping with City Orders  
+✔ Dynamic Pie Charts & Bar Charts  
+✔ Customer-Level Drilldowns  
+✔ Monthly Profit Trend Analysis  
+✔ Category & Sub-Category Breakdown  
+✔ Professional UI/UX Styling  
+
+---
+
+## 🖼 **Dashboard Preview**
+
+![dashboard preview](https://github.com/PavanRasipogula/E-COMMERCE_SALES/blob/main/E-commerce%20Sales%20Dashboard.jpg)
+
+---
+
+## 📥 **Project Files**
+
+📄 **Full Dashboard PDF:**
+[E-Commerce Sales Dashboard PDF](https://github.com/PavanRasipogula/E-COMMERCE_SALES/blob/main/E-commerce%20Sales%20Dashboard.pdf)
+
+---
+
+## 🧭 **How to Use**
+
+1. Download the `.pbix` file (upload soon).  
+2. Open with **Power BI Desktop**.  
+3. Use filters to explore state, quarter, and category-level performance.  
+4. Analyze customer trends, payment modes, and profit fluctuations.  
+5. Use map visuals to understand geographic order distribution.
+
+---
+
+## 👨‍💻 Author
+
+**Rasipogula Pavankumar**  
+📧 [justmailtopavankumar@gmail.com](mailto:justmailtopavankumar@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/pavanrasipogula)
+
+---
+
+⭐ If you liked this project, please star the repo and share your feedback!
